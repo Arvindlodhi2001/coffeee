@@ -1,0 +1,520 @@
+*
+{
+  margin: 0;
+  padding: 0;  
+  overflow-x: hidden;
+}
+.front
+{
+    height: 900px;
+    width: 100%;
+    background-image: url(images/b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    .time_social
+    {
+        width: 100%;
+        float: left;
+    .time
+    {
+        color: white;
+        font-size:large;
+        margin:20px;
+        cursor: pointer;
+    }
+}
+
+ hr
+{
+    opacity: 0.2;
+    margin-top: 10px;
+}
+ 
+.socialmarket li
+{
+list-style: none;
+float: left;
+margin-left: 20px;
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+}
+}
+
+.socialmarket
+{
+    border: 0px solid red;
+    width: 400px;
+    float: right;
+    margin-top: -45px;
+}
+
+/* menu code start */
+
+.menubox
+{
+    border: 2px solid red;
+    border-radius: 0px 40px 40px 0px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    height: 60px;
+    width:73% ;
+    margin-left: -64%;
+    li
+    {
+        list-style: none;
+        float: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    a
+    {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+}
+
+
+
+.menubox:hover
+{
+    transform: translatex(87.5%);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.menubox a:hover
+{
+    color: orange;
+
+    text-decoration: underline;
+}
+
+/* menu code End */
+
+/* text code start */
+
+.text
+{
+    color: white;
+    font-size: 40px;
+    width: 70%;
+    height: 250px;
+    margin-top: 150px;
+    border: 0px solid red;
+    h1
+    {
+        margin: 25px;
+        text-align: center;
+    }
+}
+
+/* text code End */
+
+/* button code start */
+
+.buttn
+{
+    height: 80px;
+    margin-left: 250px;
+ button
+ {
+    height: 60px;
+    width: 180px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(242, 153, 103);
+    border-color: rgb(242, 153, 103);
+    
+    margin-left: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 5px black;
+
+    a
+    {
+        color: white;
+        text-decoration: none;
+    }
+ }  
+ 
+
+    .button:hover
+    {
+        transform: scale(1.05);
+        transition: 2s;
+        cursor: pointer;
+    }
+ 
+ 
+}
+
+/* Button code End */
+
+
+/*   We Serve code  start*/
+
+.serve
+{
+    border: 2px solid gray;
+    height: 1000px;
+    width: 99.7%;
+    background-color: gray;
+
+    h1
+    {
+        text-align: center;
+        font-size: 50px;
+    }
+    .box1
+    {
+        border: 2px solid rgb(217, 213, 211);
+        height: 430px;
+        width: 30%;
+        float: left;
+        margin-left: 30px;
+        margin-top: 30px;
+
+        img
+        {
+            width: 100%;
+            height: 290px;
+        }
+        h1
+        {
+            font-size: 25px;
+        }
+        p
+        {
+            font-size: 20px;
+            margin-left: 25px;
+            text-align: center;
+        }
+        button
+        {
+            width: 130px;
+            height: 40px;
+            background-color:  rgb(242, 153, 103);
+            border-color:  rgb(242, 153, 103);
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 38%;
+            margin-top: 4px;
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px 10px black;
+        }
+
+        a
+        {
+            text-decoration: none;
+            color: white;
+        }
+
+    }
+}
+
+.box1:hover
+{
+    transform: scale(1.08);
+    transition: 3s;
+}
+
+/*  We Serve code  End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    *
+{
+  margin: 0;
+  padding: 0;  
+  overflow-x: hidden;
+}
+.front
+{
+    height: 900px;
+    width: 100%;
+    background-image: url(images/m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    .time_social
+    {
+        width: 100%;
+        float: left;
+        
+    .time
+    {
+        color: white;
+        font-size:large;
+        margin:20px;
+        cursor: pointer;
+        display: none;
+    }
+}
+
+ hr
+{
+    opacity: 0.2;
+    margin-top: 10px;
+}
+ 
+.socialmarket li
+{
+list-style: none;
+float: left;
+margin-left: 20px;
+margin-top: 50px;
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+}
+}
+
+.socialmarket
+{
+    border: 0px solid red;
+    width: 400px;
+    float: right;
+    margin-top: -45px;
+}
+
+
+/* menu code start */
+
+.menubox
+{
+    border: 0px solid red;
+    border-radius: 0px 40px 40px 0px;
+    background-color: orange;
+    height: 550px;
+    width:60% ;
+    margin-left: -55%;
+    li
+    {
+        list-style: none;
+        display: block;
+        margin-left: 20px;
+        margin-top: 35px;
+    }
+    a
+    {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 0;
+    }
+
+
+}
+
+.menu
+{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    border: 0px solid red;
+    height: 200px;
+    width:50px;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: -100%;
+    position: relatives;
+}
+
+.menu li
+{
+    text-align: right;
+    color: red;
+}
+
+
+
+.menubox:hover
+{
+    transform: translatex(95.5%);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.menubox a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+/* menu code End */
+
+/* text code start */
+
+.text
+{
+    color: white;
+    font-size:medium;
+    width: 90%;
+    height: 220px;
+    margin-top: -150px;
+    margin-left: 20px;
+    border: 0px solid red;
+    h1
+    {
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+/* text code End */
+
+
+/* button code start */
+
+.buttn
+{
+    height: 300px;
+    margin-left: 40px;
+    margin-top: -80px;
+    z-index: -1;
+ button
+ {
+    height: 60px;
+    width: 270px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(242, 153, 103);
+    border-color: rgb(242, 153, 103);
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 5px black;
+
+    a
+    {
+        color: white;
+        text-decoration: none;
+    }
+ }  
+ 
+
+    .button:hover
+    {
+        transform: scale(1.05);
+        transition: 2s;
+        cursor: pointer;
+    }
+ 
+ 
+}
+
+/* Button code End */
+
+
+/*   We Serve code  start*/
+
+.serve
+{
+    border: 2px solid gray;
+    height: 3000px;
+    width: 99.7%;
+    background-color: gray;
+
+    h1
+    {
+        text-align: center;
+        font-size: 50px;
+    }
+    .box1
+    {
+        border: 2px solid rgb(217, 213, 211);
+        height: 430px;
+        width: 95%;
+        float: left;
+        margin-left: 5px;
+        margin-top: 30px;
+
+        img
+        {
+            width: 100%;
+            height: 290px;
+        }
+        h1
+        {
+            font-size: 25px;
+        }
+        p
+        {
+            font-size: 20px;
+            margin-left: 25px;
+            text-align: center;
+        }
+        button
+        {
+            width: 130px;
+            height: 40px;
+            background-color:  rgb(242, 153, 103);
+            border-color:  rgb(242, 153, 103);
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 38%;
+            margin-top: 4px;
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px 10px black;
+        }
+
+        a
+        {
+            text-decoration: none;
+            color: white;
+        }
+
+    }
+}
+
+.box1:hover
+{
+    transform: scale(1.02);
+    transition: 3s;
+    
+}
+
+/*  We Serve code  End */
+
+
+
+
+
+}
+
+
+
